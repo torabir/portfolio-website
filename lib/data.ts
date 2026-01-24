@@ -114,7 +114,7 @@ export const projectsData = [
       "A full-stack web application developed as a group project and graded A, which I deployed on a self-managed VPS using nginx, MySQL, and a Node.js backend.",
     tags: ["Full-Stack", "React", "Node.js", "MySQL", "nginx", "Linux"],
     imageUrl: prosjekt2,
-    href: "eldenringwikidemo.eu",
+    href: "https://eldenringwikidemo.eu",
     links: [],
   },
 
