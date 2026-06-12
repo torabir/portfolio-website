@@ -1,7 +1,13 @@
 import { useActiveSectionContext } from "@/context/active-section-context";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import type { SectionName } from "./types";
+
+export function useHasMounted() {
+  const [hasMounted, setHasMounted] = useState(false);
+  useEffect(() => { setHasMounted(true); }, []);
+  return hasMounted;
+}
 
 export function useSectionInView(sectionName: SectionName, threshold = 0.75) {
   const { ref, inView } = useInView({
