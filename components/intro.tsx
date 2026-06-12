@@ -22,11 +22,8 @@ export default function Intro() {
     >
       <div className="flex items-center justify-center">
         <div className="relative">
-          {/* <motion.div
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }} */}
           <motion.div
-            initial={false}
+            initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
               type: "tween",
@@ -34,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/portfolio-pic-brown.webp"
+              src="/portrait.jpg"
               alt="Tor Arne portrait"
               width={224}
               height={224}
@@ -60,11 +57,11 @@ export default function Intro() {
         </div>
       </div>
 
-      {/* <motion.h1
+      <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }} */}
-      <motion.h1 initial={false} animate={{ opacity: 1, y: 0 }}>
+        animate={{ opacity: 1, y: 0 }}
+      >
         <span className="font-bold">
           Hi! I'm Tor.
           <br />
@@ -82,16 +79,12 @@ export default function Intro() {
         </span>
         .
         <br />
-        <span className="mt-6 block">Welcome to my website!</span>
+        <p className="mt-6">Welcome to my website!</p>
       </motion.h1>
 
-      {/* <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }} */}
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
-        initial={false}
+        initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
           delay: 0.1,
