@@ -160,7 +160,6 @@ export const skillsData = [
   "Linux / Bash",
   "Operating Systems (C)",
   "Docker",
-  "Kubernetes (basic)",
   "Microsoft Azure",
   "OpenStack",
   "Infrastructure as Code (Terraform)",
@@ -174,7 +173,7 @@ export const skillsData = [
   "Threat Modeling",
   "Vulnerability Assessment",
   "Security Controls",
-  "Identity & Access Management (basic)",
+  "Active Directory",
 
   "Networking Fundamentals",
   "Wireshark",

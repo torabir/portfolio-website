@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/portrait.jpg"
+              src="/portfolio-pic-brown.webp"
               alt="Tor Arne portrait"
               width={224}
               height={224}
