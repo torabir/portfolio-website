@@ -1,7 +1,7 @@
-import prosjekt1 from "./1.jpg";
-import prosjekt2 from "./eldenring.png";
-import prosjekt3 from "./risikoanalyse.png";
-import prosjekt4 from "./NRK-TV.png";
-import prosjekt5 from "./NRK.png";
+import prosjekt1 from "./prosjekt1.webp";
+import prosjekt2 from "./prosjekt2.webp";
+import prosjekt3 from "./prosjekt3.webp";
+import prosjekt4 from "./prosjekt4.webp";
+import prosjekt5 from "./prosjekt5.webp";
 
 export { prosjekt1, prosjekt2, prosjekt3, prosjekt4, prosjekt5 };

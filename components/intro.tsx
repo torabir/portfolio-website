@@ -31,11 +31,11 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/portrait.jpg"
+              src="/portfolio-pic-brown.webp"
               alt="Tor Arne portrait"
               width={224}
               height={224}
-              quality={95}
+              quality={80}
               priority
               className="h-28 w-28 sm:h-32 sm:w-32 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
