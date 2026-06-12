@@ -101,9 +101,9 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "COMMING SOON",
-    description: "COMING SOON",
-    tags: ["Secret Project", "Classified", "Top Secret"],
+    title: "Coming Soon",
+    description: "New project in progress — check back later.",
+    tags: ["In Progress"],
     imageUrl: prosjekt1,
     href: "https://github.com/torabir",
     links: [],
