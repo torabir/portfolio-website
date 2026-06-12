@@ -1,30 +1,133 @@
-[![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
+# Portfolio Website
 
-# [Watch video here](https://youtu.be/sUKptmUVIBM)
+This is my personal portfolio website, built to present who I am, what I work with, and the projects, technologies, and experiences that shape my professional profile.
 
-## What you will learn
+The site works as an interactive portfolio/CV, combining web development, infrastructure, cybersecurity, project experience, and personal interests in one place.
 
-- Latest Next.js 13 features
+## Live Website
+
+[torarnebirkeland.no](https://www.torarnebirkeland.no)
+
+## About the Project
+
+The portfolio showcases my background as a Digital Infrastructure and Cybersecurity student, with a focus on web development, cloud platforms, infrastructure, risk analysis, and practical system security.
+
+It includes sections for:
+
+- Introduction and personal profile
+- Selected projects
+- Technical skills
+- Education and work experience
+- Contact form
+- Downloadable CV
+- Light and dark mode
+- Responsive design for desktop and mobile
+
+The goal of the website is to present both technical competence and personal background in a clean, structured, and accessible way.
+
+## Built With
+
+This project is built with a modern React/Next.js stack:
+
 - Next.js App Router
-- Next.js Server Actions
-- Client & Server Components
-- TypeScript (Beginner & Intermediate)
+- React
+- TypeScript
 - Tailwind CSS
-- Context API
-- Advanced Animations with Framer Motion
-- React.Email & Resend
-- Custom React hooks
-- Fresh, modern UI design
-- Light & Dark mode
-- Responsive website
+- Framer Motion
+- React Email
+- Resend
+- Vercel
 
-## Important
+## Key Features
 
-If you want to be a professional developer, you have to know the fundamentals like JavaScript and CSS really well. I highly recommend you go through my [Professional JavaScript](https://bytegrad.com/courses/professional-javascript) and [Professional CSS](https://bytegrad.com/courses/professional-css) courses.
+- Responsive single-page portfolio layout
+- Smooth section-based navigation
+- Animated UI elements with Framer Motion
+- Light and dark mode support
+- Contact form using React Email and Resend
+- Project and experience sections
+- Skills overview
+- CV download
+- SEO-friendly structure
+- Deployed with Vercel
 
-I'm close to releasing a complete React & Next.js course. Get on the email list to receive early-bird pricing: [link](https://email.bytegrad.com/).
+## Project Structure
 
-## Setup
+```bash
+.
+├── app/                # Next.js app directory
+├── components/         # Reusable UI components
+├── context/            # Context providers
+├── email/              # React Email template
+├── lib/                # Utility functions and data
+├── public/             # Static assets
+├── actions/            # Server actions
+└── README.md
+```
 
-1. Add RESEND_API_KEY environment variable in .env.local
-2. In the send-email.ts action file, change the "to" email to your own email
+## Getting Started
+
+To run the project locally:
+
+```bash
+git clone git@github.com:torabir/portfolio-website.git
+cd portfolio-website
+npm install
+npm run dev
+```
+
+Then open:
+
+```bash
+http://localhost:3000
+```
+
+## Environment Variables
+
+The contact form uses Resend for email delivery.
+
+Create a `.env.local` file in the root directory:
+
+```env
+RESEND_API_KEY=your_resend_api_key
+```
+
+You may also need to update the recipient email address inside the email/server action file depending on your setup.
+
+## Deployment
+
+The site is deployed with Vercel.
+
+Typical deployment flow:
+
+```bash
+git add .
+git commit -m "Update portfolio"
+git push
+```
+
+Vercel automatically builds and deploys the latest version from the connected GitHub repository.
+
+## Purpose
+
+This portfolio is both a technical project and a personal presentation. It is meant to show how I approach web development, structure, design, communication, and professional identity.
+
+It also reflects the combination of areas I am currently interested in:
+
+- Web development
+- Digital infrastructure
+- Cloud platforms
+- Cybersecurity
+- Risk analysis
+- Project coordination
+- Real-world technical problem solving
+
+## Author
+
+**Tor Arne Birkeland**
+
+Digital Infrastructure and Cybersecurity student at NTNU Trondheim.
+
+- Website: [torarnebirkeland.no](https://www.torarnebirkeland.no)
+- GitHub: [github.com/torabir](https://github.com/torabir)
+- LinkedIn: [linkedin.com/in/tor-arne-birkeland](https://www.linkedin.com/in/tor-arne-birkeland/)
