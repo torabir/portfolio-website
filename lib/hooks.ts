@@ -9,6 +9,24 @@ export function useHasMounted() {
   return hasMounted;
 }
 
+export function useIsMobile() {
+  const [isMobile, setIsMobile] = useState(
+    () =>
+      typeof window !== "undefined" &&
+      window.matchMedia("(max-width: 639px)").matches
+  );
+
+  useEffect(() => {
+    const mql = window.matchMedia("(max-width: 639px)");
+    const onChange = () => setIsMobile(mql.matches);
+    onChange();
+    mql.addEventListener("change", onChange);
+    return () => mql.removeEventListener("change", onChange);
+  }, []);
+
+  return isMobile;
+}
+
 export function useSectionInView(sectionName: SectionName, threshold = 0.75) {
   const { ref, inView } = useInView({
     threshold,
