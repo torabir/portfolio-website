@@ -156,6 +156,7 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
+  "AI tools",
 
   "Linux / Bash",
   "Operating Systems (C)",
