@@ -130,7 +130,7 @@ export const projectsData = [
   {
     title: "NRK TV-aksjonen",
     description:
-      "Held main responsibility for NRK TV-aksjonen's fundraising auction in 2020 and 2021 — planning, communication, content and copywriting.",
+      "Held main responsibility for NRK TV-aksjonen's fundraising auction in 2020 and 2021 — planning, coordination and communication.",
     tags: ["Fundraising", "Stakeholders", "Digital campaign"],
     imageUrl: prosjekt4,
     href: "https://www.nrk.no/tvaksjonen/tv-aksjonens-auksjon_-se-hva-du-kan-by-pa-1.15693567",
