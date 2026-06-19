@@ -6,11 +6,10 @@ import { LuGraduationCap } from "react-icons/lu";
 // import rmtdevImg from "@/public/rmtdev.png";
 // import wordanalyticsImg from "@/public/wordanalytics.png";
 import {
-  prosjekt1,
   prosjekt2,
   prosjekt3,
   prosjekt4,
-  prosjekt5,
+  toppturkartet,
 } from "@/public/index";
 
 export const links = [
@@ -101,11 +100,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Coming Soon",
-    description: "New project in progress — check back later.",
-    tags: ["In Progress"],
-    imageUrl: prosjekt1,
-    href: "https://github.com/torabir",
+    title: "Toppturkartet",
+    description:
+      "An interactive map that finds and ranks the best mountain hikes in Norway by a single ToppturScore, so you don't have to spend hours researching them. Full-stack, with a spatial backend and a real open-data pipeline.",
+    tags: ["Next.js", "TypeScript", "PostGIS", "MapLibre", "Full-Stack"],
+    imageUrl: toppturkartet,
+    href: "https://toppturkartet.vercel.app",
     links: [],
   },
   {
@@ -130,19 +130,16 @@ export const projectsData = [
   {
     title: "NRK TV-aksjonen",
     description:
-      "Held main responsibility for the fundraising auction at NRK TV-aksjonen (2021), including planning and stakeholder communication.",
-    tags: ["NRK", "Project coordination", "Stakeholders", "Fundraising"],
+      "Held the main responsibility for the fundraising auction at NRK TV-aksjonen in 2020 and 2021, including planning, stakeholder communication and digital campaign coordination.",
+    tags: [
+      "NRK",
+      "Fundraising",
+      "Coordination",
+      "Stakeholders",
+      "Digital campaign",
+    ],
     imageUrl: prosjekt4,
     href: "https://www.nrk.no/tvaksjonen/tv-aksjonens-auksjon_-se-hva-du-kan-by-pa-1.15693567",
-    links: [],
-  },
-  {
-    title: "NRK TV-aksjonen",
-    description:
-      "In 2020, the TV-aksjonen was carried out as a fully digital campaign, raising over NOK 239 million for WWF’s work against plastic pollution in the oceans.",
-    tags: ["NRK", "Digital campaign", "Fundraising results", "WWF"],
-    imageUrl: prosjekt5,
-    href: "https://www.nrk.no/presse/239-millioner-samlet-inn-i-2020-1.15205526",
     links: [],
   },
 ] as const;
