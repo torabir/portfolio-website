@@ -102,7 +102,7 @@ export const projectsData = [
   {
     title: "Toppturkartet",
     description:
-      "An interactive map that ranks every Norwegian peak by a single, data-driven ToppturScore. Full-stack Next.js, a Supabase/PostGIS spatial backend, and a MapLibre map over an open-data pipeline.",
+      "An interactive map ranking every Norwegian peak by a single ToppturScore. Full-stack Next.js, a Supabase/PostGIS backend, an open-data pipeline.",
     tags: ["Next.js", "TypeScript", "PostGIS", "MapLibre", "Full-Stack"],
     imageUrl: toppturkartet,
     href: "https://toppturkartet.vercel.app",
@@ -130,8 +130,8 @@ export const projectsData = [
   {
     title: "NRK TV-aksjonen",
     description:
-      "Held the main responsibility for the fundraising auction at NRK TV-aksjonen in 2020 and 2021, including planning, stakeholder communication and digital campaign coordination.",
-    tags: ["Fundraising", "Coordination", "Stakeholders", "Digital campaign"],
+      "Held main responsibility for NRK TV-aksjonen's fundraising auction in 2020 and 2021 — planning, communication, content and copywriting.",
+    tags: ["Fundraising", "Stakeholders", "Digital campaign"],
     imageUrl: prosjekt4,
     href: "https://www.nrk.no/tvaksjonen/tv-aksjonens-auksjon_-se-hva-du-kan-by-pa-1.15693567",
     links: [],
