@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/portfolio-pic-brown.webp"
+              src="/portrett.webp"
               alt="Tor Arne portrait"
               width={224}
               height={224}
