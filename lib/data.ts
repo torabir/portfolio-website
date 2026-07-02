@@ -5,12 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 // import corpcommentImg from "@/public/corpcomment.png";
 // import rmtdevImg from "@/public/rmtdev.png";
 // import wordanalyticsImg from "@/public/wordanalytics.png";
-import {
-  prosjekt2,
-  prosjekt3,
-  prosjekt4,
-  toppturkartet,
-} from "@/public/index";
+import { prosjekt2, prosjekt3, prosjekt4, toppturkartet } from "@/public/index";
 
 export const links = [
   {
@@ -54,7 +49,7 @@ export const experiencesData = [
     description:
       "Focus on digital infrastructure, cloud platforms, networking, and cybersecurity, with an emphasis on practical and industry-relevant skills. Exchange semester in South Korea.",
     icon: React.createElement(LuGraduationCap),
-    date: "2023 – Present",
+    date: "2023 – 2026",
   },
   {
     title: "Tour Manager / Stage Manager",

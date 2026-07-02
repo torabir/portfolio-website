@@ -69,7 +69,7 @@ export default function Intro() {
         </span>{" "}
         I'm a{" "}
         <span className="font-bold">
-          Digital infrastructure and cybersecurity student
+          Digital infrastructure and cybersecurity graduate
         </span>{" "}
         focused on{" "}
         <span className="italic">

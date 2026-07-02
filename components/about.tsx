@@ -21,16 +21,16 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
 
       <p className="mb-3">
-        I am <span className="font-medium">Tor Arne Birkeland</span>, a
-        final-year bachelor’s student in{" "}
+        I am <span className="font-medium">Tor Arne Birkeland</span>, a recent
+        graduate with a bachelor’s degree in{" "}
         <span className="font-medium">
           Digital Infrastructure and Cybersecurity
         </span>{" "}
-        at NTNU Trondheim.
+        from NTNU Trondheim.
       </p>
 
       <p className="mb-3">
-        Prior to my current studies, I worked on large-scale (and small)
+        Before I started studying at NTNU, I worked on large-scale (and small)
         productions and live projects within{" "}
         <span className="font-medium">NRK (national television)</span>, where I
         was involved in coordination, planning, stakeholder communication, and
@@ -54,19 +54,17 @@ export default function About() {
 
       <p className="mb-3">
         I currently focus on{" "}
-        <span className="font-medium">
-          cybersecurity, cloud infrastructure, and risk analysis
-        </span>
-        , and am completing my bachelor thesis on vulnerability and risk
-        assessment in the marine aquaculture industry, in collaboration with
-        industry consultants.
+        <span className="font-medium">web development</span>, while building on
+        my background in cloud infrastructure, cybersecurity, and risk analysis.
+        I recently completed my bachelor thesis on vulnerability and risk
+        assessment in the marine aquaculture industry, in collaboration with{" "}
+        <span className="font-medium">Bouvet</span>.
       </p>
 
       <p>
         <span className="italic">Outside of tech</span>, I enjoy music
-        production, working out, hiking, gaming, and film. I am calm,
-        structured, creative and curious, and I thrive in environments that
-        value learning and thoughtful problem-solving.
+        production, working out, hiking, gaming, film, books and podcasts — I
+        usually have some project on the go, whether it compiles or not.
       </p>
     </motion.section>
   );
