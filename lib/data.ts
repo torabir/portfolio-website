@@ -5,7 +5,13 @@ import { LuGraduationCap } from "react-icons/lu";
 // import corpcommentImg from "@/public/corpcomment.png";
 // import rmtdevImg from "@/public/rmtdev.png";
 // import wordanalyticsImg from "@/public/wordanalytics.png";
-import { prosjekt2, prosjekt3, prosjekt4, toppturkartet } from "@/public/index";
+import {
+  prosjekt2,
+  prosjekt3,
+  prosjekt4,
+  toppturkartet,
+  cardsandwords,
+} from "@/public/index";
 
 export const links = [
   {
@@ -101,6 +107,15 @@ export const projectsData = [
     tags: ["Next.js", "TypeScript", "PostGIS", "MapLibre", "Full-Stack"],
     imageUrl: toppturkartet,
     href: "https://toppturkartet.vercel.app",
+    links: [],
+  },
+  {
+    title: "Cards & Words",
+    description:
+      "Wordle × Balatro word game — and a hands-on DevOps project: Docker, CI/CD, nginx on a VPS, health checks and monitoring.",
+    tags: ["Docker", "CI/CD", "nginx", "Linux VPS", "React", "Supabase"],
+    imageUrl: cardsandwords,
+    href: "https://birkelandboss.no",
     links: [],
   },
   {

@@ -4,6 +4,7 @@ import prosjekt3 from "./prosjekt3.webp";
 import prosjekt4 from "./prosjekt4.webp";
 import prosjekt5 from "./prosjekt5.webp";
 import toppturkartet from "./toppturkartet.jpg";
+import cardsandwords from "./cardsandwords.webp";
 
 export {
   prosjekt1,
@@ -12,4 +13,5 @@ export {
   prosjekt4,
   prosjekt5,
   toppturkartet,
+  cardsandwords,
 };
