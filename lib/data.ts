@@ -129,21 +129,21 @@ export const projectsData = [
   },
 
   {
-    title: "Security Risk Analysis (NTNU)",
-    description:
-      "Academic security risk analysis from the NTNU course Risk Management. Based on a fictional case and graded A.",
-    tags: ["Risk Management", "Infosec", "ISO 27001", "ISMS"],
-    imageUrl: prosjekt3,
-    href: "https://raw.githubusercontent.com/torabir/academic-security-case-studies/main/Risikoanalyse%20helsesektor%20fiktiv%20case%20utdrag.pdf",
-    links: [],
-  },
-  {
     title: "NRK TV-aksjonen",
     description:
       "Held main responsibility for NRK TV-aksjonen's fundraising auction in 2020 and 2021 — planning, coordination and communication.",
     tags: ["Fundraising", "Stakeholders", "Digital campaign"],
     imageUrl: prosjekt4,
     href: "https://www.nrk.no/tvaksjonen/tv-aksjonens-auksjon_-se-hva-du-kan-by-pa-1.15693567",
+    links: [],
+  },
+  {
+    title: "Security Risk Analysis (NTNU)",
+    description:
+      "Academic security risk analysis from the NTNU course Risk Management. Based on a fictional case and graded A.",
+    tags: ["Risk Management", "Infosec", "ISO 27001", "ISMS"],
+    imageUrl: prosjekt3,
+    href: "https://raw.githubusercontent.com/torabir/academic-security-case-studies/main/Risikoanalyse%20helsesektor%20fiktiv%20case%20utdrag.pdf",
     links: [],
   },
 ] as const;
