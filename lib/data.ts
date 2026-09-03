@@ -11,6 +11,7 @@ import {
   prosjekt4,
   toppturkartet,
   cardsandwords,
+  claudeautomation,
 } from "@/public/index";
 
 export const links = [
@@ -41,6 +42,14 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  {
+    title: "MSc in Informatics – Software Engineering",
+    location: "NTNU Trondheim",
+    description:
+      "Master's programme in Informatics with a specialization in software engineering.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2026 –",
+  },
   {
     title: "Bachelor Thesis – Industry Collaboration",
     location: "NTNU Trondheim",
@@ -101,6 +110,15 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Claude Automation Lab",
+    description:
+      "Agentic production pipelines built with Claude Code — scheduled skills, an approval-gated video pipeline, and a hardened sandbox/permission setup. Curated public case study.",
+    tags: ["Claude Code", "AI Agents", "Automation", "CI/CD", "Security"],
+    imageUrl: claudeautomation,
+    href: "https://github.com/torabir/claude-automation",
+    links: [],
+  },
+  {
     title: "Toppturkartet",
     description:
       "An interactive map ranking every Norwegian peak by a single ToppturScore. Full-stack Next.js, a Supabase/PostGIS backend, an open-data pipeline.",
@@ -157,7 +175,8 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
-  "AI tools",
+  "AI automation (Claude)",
+  "AI Agents",
 
   "Linux / Bash",
   "Operating Systems (C)",

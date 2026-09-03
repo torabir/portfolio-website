@@ -21,12 +21,14 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
 
       <p className="mb-3">
-        I am <span className="font-medium">Tor Arne Birkeland</span>, a recent
-        graduate with a bachelor’s degree in{" "}
+        I am <span className="font-medium">Tor Arne Birkeland</span>, a
+        Master’s student in{" "}
+        <span className="font-medium">Informatics (Software Engineering)</span>{" "}
+        at NTNU Trondheim, with a bachelor’s degree in{" "}
         <span className="font-medium">
           Digital Infrastructure and Cybersecurity
-        </span>{" "}
-        from NTNU Trondheim.
+        </span>
+        .
       </p>
 
       <p className="mb-3">
@@ -54,7 +56,8 @@ export default function About() {
 
       <p className="mb-3">
         I currently focus on{" "}
-        <span className="font-medium">web development</span>, while building on
+        <span className="font-medium">software engineering and AI automation</span>
+        , while building on
         my background in cloud infrastructure, cybersecurity, and risk analysis.
         I recently completed my bachelor thesis on vulnerability and risk
         assessment in the marine aquaculture industry, in collaboration with{" "}

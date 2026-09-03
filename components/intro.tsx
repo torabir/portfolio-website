@@ -69,16 +69,18 @@ export default function Intro() {
         </span>{" "}
         I'm a{" "}
         <span className="font-bold">
-          Digital infrastructure and cybersecurity graduate
+          Master's student in Informatics (Software Engineering)
         </span>{" "}
-        focused on{" "}
+        at NTNU, with a background in{" "}
         <span className="italic">
-          <br />
-          web development, cloud platforms & infrastructure, risk analysis, and
-          real-world system security
+          cloud infrastructure, cybersecurity, and risk analysis
         </span>
         .
-        <br />
+        <p className="mt-6">
+          Currently obsessed with{" "}
+          <span className="font-bold">AI automation</span> — building AI agents
+          and pipelines with Claude Code.
+        </p>
         <p className="mt-6">Welcome to my website!</p>
       </motion.h1>
 
