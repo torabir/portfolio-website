@@ -112,7 +112,7 @@ export const projectsData = [
   {
     title: "Claude Automation Lab",
     description:
-      "Agentic production pipelines built with Claude Code: scheduled skills, an approval-gated video pipeline, and a hardened sandbox/permission setup. Curated public case study.",
+      "Agentic production pipelines built with Claude Code: scheduled skills, approval gates, and a hardened sandbox setup. Public case study.",
     tags: ["Claude Code", "AI Agents", "Automation", "CI/CD", "Security"],
     imageUrl: claudeautomation,
     href: "https://github.com/torabir/claude-automation",
