@@ -58,7 +58,7 @@ export default function About() {
         I currently focus on{" "}
         <span className="font-medium">software engineering and AI automation</span>
         , while building on
-        my background in cloud infrastructure, cybersecurity, and risk analysis.
+        my background in infrastructure, cloud and cybersecurity.
         I recently completed my bachelor thesis on vulnerability and risk
         assessment in the marine aquaculture industry, in collaboration with{" "}
         <span className="font-medium">Bouvet</span>.
