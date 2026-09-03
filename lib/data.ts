@@ -110,7 +110,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Claude Automation Lab",
+    title: "Claude Automation",
     description:
       "Agentic production pipelines built with Claude Code: scheduled skills, approval gates, and a hardened sandbox setup. Public case study.",
     tags: ["Claude Code", "AI Agents", "CI/CD", "Security"],
