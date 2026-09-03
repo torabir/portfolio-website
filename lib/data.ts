@@ -112,7 +112,7 @@ export const projectsData = [
   {
     title: "Claude Automation Lab",
     description:
-      "Agentic production pipelines built with Claude Code — scheduled skills, an approval-gated video pipeline, and a hardened sandbox/permission setup. Curated public case study.",
+      "Agentic production pipelines built with Claude Code: scheduled skills, an approval-gated video pipeline, and a hardened sandbox/permission setup. Curated public case study.",
     tags: ["Claude Code", "AI Agents", "Automation", "CI/CD", "Security"],
     imageUrl: claudeautomation,
     href: "https://github.com/torabir/claude-automation",
@@ -130,7 +130,7 @@ export const projectsData = [
   {
     title: "Cards & Words",
     description:
-      "Wordle × Balatro word game — and a hands-on DevOps project: Docker, CI/CD, nginx on a VPS, health checks and monitoring.",
+      "Wordle × Balatro word game, and a hands-on DevOps project: Docker, CI/CD, nginx on a VPS, health checks and monitoring.",
     tags: ["Docker", "CI/CD", "nginx", "Linux VPS", "React", "Supabase"],
     imageUrl: cardsandwords,
     href: "https://birkelandboss.no",
@@ -149,7 +149,7 @@ export const projectsData = [
   {
     title: "NRK TV-aksjonen",
     description:
-      "Held main responsibility for NRK TV-aksjonen's fundraising auction in 2020 and 2021 — planning, coordination and communication.",
+      "Held main responsibility for NRK TV-aksjonen's fundraising auction in 2020 and 2021: planning, coordination and communication.",
     tags: ["Fundraising", "Stakeholders", "Digital campaign"],
     imageUrl: prosjekt4,
     href: "https://www.nrk.no/tvaksjonen/tv-aksjonens-auksjon_-se-hva-du-kan-by-pa-1.15693567",

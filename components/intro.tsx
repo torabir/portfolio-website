@@ -78,7 +78,7 @@ export default function Intro() {
         .
         <p className="mt-6">
           Currently obsessed with{" "}
-          <span className="font-bold">AI automation</span> — building AI agents
+          <span className="font-bold">AI automation</span>, building AI agents
           and pipelines with Claude Code.
         </p>
         <p className="mt-6">Welcome to my website!</p>

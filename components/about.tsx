@@ -46,8 +46,8 @@ export default function About() {
 
       <p className="mb-3">
         My interest in technology has always been there, but became professional
-        when I started building websites in my spare time — first for myself,
-        and later for others. This gradually led me from web development into{" "}
+        when I started building websites in my spare time, first for myself and
+        later for others. This gradually led me from web development into{" "}
         <span className="font-medium">
           infrastructure, cloud platforms, and cybersecurity
         </span>
@@ -66,7 +66,7 @@ export default function About() {
 
       <p>
         <span className="italic">Outside of tech</span>, I enjoy music
-        production, working out, hiking, gaming, film, books and podcasts — I
+        production, working out, hiking, gaming, film, books and podcasts. I
         usually have some project on the go, whether it compiles or not.
       </p>
     </motion.section>
